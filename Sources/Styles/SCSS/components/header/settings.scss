@@ -1,0 +1,46 @@
+.tabSettings{
+    position: fixed;
+    display: none;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    right: 0;
+    top: 10vh;
+    width: 20vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: $color-5;
+    @keyframes view {
+        from{
+            transform: translateX(100%);
+        }
+        to{
+            transform: translateX(0);
+        }
+    }
+    @keyframes noview {
+        to{
+            transform: translateX(100%);
+        }
+        from{
+            transform: translateX(0);
+        }
+    }
+    button{
+        color: white;
+        background-color: $color-3;
+        width: 80%;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+        border-radius: 4vw;
+        font-size: 1.5vw;
+        justify-content: space-around;
+        i{
+            font-size: 3vw;
+        }
+    }
+    .footer{
+        color: $color-1;
+    }
+}

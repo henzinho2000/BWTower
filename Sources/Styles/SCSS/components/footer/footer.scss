@@ -1,0 +1,65 @@
+footer{
+    .footer{
+        background-color: $color-4;
+        color: $color-2;
+        display: flex;
+
+        justify-content: space-around;
+        width: 100%;
+        height: 30vh;
+        align-items: center;
+        text-align: justify;
+        .aboutUs{
+            width: 20vw;
+        }
+        h2{
+            font-family: $font-family-semibold;
+        }
+        p{
+            color: $color-1;
+            font-family: $font-family-normal;
+        }
+        .minhaEmpresa{
+            width: 20vw;
+            a{
+                background-color: $color-3;
+                height: 8vh;
+                border-radius: 50px;
+                display: flex;
+                justify-content: space-evenly;
+                align-items: center;
+                font-size: 3vw;
+            }
+        }
+        .contactUs{
+            width: 20vw;
+            .tel{
+                display: flex;
+                justify-content: center;
+                p{
+                    margin-left: 1vw;
+                }
+            }
+            a,div{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                color: $color-2;
+            }
+            .socialMedia{
+                i{
+                    font-size: 5vw;
+                }
+            }
+        }
+    }
+    .copyright{
+        width: 100%;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $color-1;
+        background-color: $color-5;
+    }
+}

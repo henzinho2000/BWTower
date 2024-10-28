@@ -1,0 +1,60 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: $color-5;
+    height: 10vh;
+    width: 100vw;
+    position: fixed;
+    align-items: center;
+    top: 0;
+    z-index: 1;
+    nav{
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        a{
+            height: 11vh;
+            display: flex;
+            align-items: center;
+        }
+        img{
+            width: 50px;
+        }
+    }
+    .buttons{
+        display: flex;
+        width: 20%;
+        justify-content: space-between;
+        .searchs{
+            input{
+                border-radius: 30px;
+                border: none;
+                padding: 1vw;
+                &:focus{
+                    outline: none;
+                }
+            }
+            button{
+                margin-left: -20px;
+                background-color: transparent;
+            }
+        }
+
+    }
+    .right{
+        background-color: $color-3;
+        height: 10vh;
+        display: flex;
+        justify-content: space-between;
+        padding-right: 2vw;
+        .login{
+            width: 10vw;
+        }
+        button{
+            width: 50%;
+            color: $color-5;
+            font-size: 1.5vw;
+        }
+    }
+}

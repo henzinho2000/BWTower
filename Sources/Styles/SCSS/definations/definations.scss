@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    transition: all .5s;
+    box-sizing: border-box;
+}
+a{
+    color: $color-1;
+    text-decoration: none;
+    font-family: $font-family-semibold;
+    @include jumper();
+}
+
+html{
+    scroll-behavior: smooth;
+    background-color: $color-1;
+}
+
+p{
+    font-family: $font-family-normal;
+}
+h2{
+    font-family: $font-family-semibold;
+}
+h1{
+    font-family: $font-family-bold;
+}
+button{
+    background-color: transparent;
+    border: none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+::-webkit-scrollbar{
+    background-color: $color-1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: $color-3;
+    border-radius: 10px;
+}

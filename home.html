@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Sources/Styles/CSS/index.css">
+    <script src="https://kit.fontawesome.com/883c70cb2c.js" crossorigin="anonymous"></script>
+    <script src="./Sources/JS/index.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./home.html"><img src="./Sources/Styles/Images/global/icons/logo.png" alt=""></a>
+            <a href="./fitness.html" id="fitness">Fitness</a>
+            <a href="./tecnology.html" id="tecnology">Tecnologia</a>
+            <a href="./tools.html" id="tools">Tools</a>
+            <a href="./decorations.html" id="decorations">Decorações</a>
+            <a href="./entertainment.html" id="entertainment">Entretenimento</a>
+        </nav>
+        <div class="buttons">
+            <div class="searchs">
+                <input type="text" id="search" placeholder="pesquise">
+                <button id="submitSearch"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+        </div>
+        <div class="right">            
+            <button id="login" class="login">Entrar</button>
+            <button id="settings" class="setting"><i class="fa-solid fa-bars"></i></button>
+        </div>
+    </header>
+    <div class="info" id="info">
+
+    </div>
+
+    <div class="tabSettings" id="tabSettings">
+        <button class="theme" id="btnTheme">
+            <p id="textTheme">Thema Escuro</p>
+            <i class="fa-solid fa-moon"></i>
+        </button>
+        <nav>
+            <a href="./about us.html">Sobre Nós</a>
+        </nav>
+        <div class="footer">
+            <p>©2024 bwTower</p>
+        </div>
+    </div>
+
+    <main>
+        <div class="carousel">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <input type="radio" name="radio-btn" id="radio5">
+
+                <a href="./fitness.html" class="slide first">
+                    <img src="./Sources/Styles/Images/pages/home/banner-1.webp" alt="">
+                </a>
+                <a href="./tecnology.html" class="slide">
+                    <img src="./Sources/Styles/Images/pages/home/banner-1.webp" alt="">
+                </a>
+                <a href="./tools.html" class="slide">
+                    <img src="./Sources/Styles/Images/pages/home/banner-1.webp" alt="">
+                </a>
+                <a href="./decorations.html" class="slide">
+                    <img src="./Sources/Styles/Images/pages/home/banner-1.webp" alt="">
+                </a>
+                <a href="./entertainment.html" class="slide">
+                    <img src="./Sources/Styles/Images/pages/home/banner-1.webp" alt="">
+                </a>
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                    <div class="auto-btn5"></div>
+                </div>
+            </div>
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+                <label for="radio5" class="manual-btn"></label>
+            </div>
+        </div>
+
+        <section class="introducao">
+            <h2>O Que Nós Fazemos</h2>
+            <p>Temos uma variedade de Produtos para todos os Seus problemas, tendo produtos para utilidades domésticas, ferramentas de construção, moda fitness, e muito mais.</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="aboutUs">
+                <h2>Sobre Nós</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis nobis a natus voluptatum illum culpa quaerat hic magni quas magnam corporis aliquid, ad perspiciatis, sapiente obcaecati maxime modi veritatis ducimus?</p>
+            </div>
+            <div class="minhaEmpresa">
+                <h2>Encontre A Gente</h2>
+                <a href="https://www.google.com/maps/place/Atrium+Shopping/@-23.6639472,-46.5103959,17z/data=!3m1!4b1!4m6!3m5!1s0x94ce69cfc315d69f:0xd1090b8ed1f1758d!8m2!3d-23.6639472!4d-46.507821!16s%2Fg%2F11h12myn3?entry=ttu&g_ep=EgoyMDI0MTAyMy4wIKXMDSoASAFQAw%3D%3D" target="_blank"><i class="fa-solid fa-location-dot"></i> local</a>
+                <p>Rua Giovanni Battista Pirelli, 155 - Vila Homero Thon, Santo André - SP, 09111-340</p>
+            </div>
+            <div class="contactUs">
+                <h2>Fale Conosco</h2>
+                <div class="socialMedia">
+                    <a href="https://www.instagram.com/bwarts_maker/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="gmail">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                    <a href="https://www.instagram.com/bwarts_maker/" target="_blank">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </div>
+                <a href="+5511987051565" class="tel">
+                    <i class="fa-solid fa-phone">  </i>
+                    <p>11 958705-1565</p>
+                </a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>©2024 bwTower</p>
+        </div>
+    </footer>
+</body>
+</html>
